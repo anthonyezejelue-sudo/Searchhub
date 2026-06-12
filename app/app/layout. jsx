@@ -1,0 +1,12 @@
+export const metadata = {
+  title: 'SearchHub - AI Powered Search',
+  description: 'Get AI answers with images and videos',
+}
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
+}
