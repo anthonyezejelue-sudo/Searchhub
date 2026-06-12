@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+export const metadata = {
+  title: 'SearchHub',
+} React, { useState } from "react";
 
 export default function SearchHub() {
   const [query, setQuery] = useState("");
